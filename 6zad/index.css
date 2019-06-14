@@ -1,0 +1,37 @@
+.nav6 label{
+	text-align: center;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	display: inline-block;
+	margin-left: -5px;
+	background: #bfbfbf;
+     background: -moz-linear-gradient(top,#dedede,#bfbfbf 50%,#dedede);
+     background: -webkit-linear-gradient(top,#dedede,#bfbfbf 50%,#dedede);
+     background: -ms-linear-gradient(top,#dedede,#bfbfbf 50%,#dedede);
+     background: -o-linear-gradient(top,#dedede,#bfbfbf 50%,#dedede);
+     background: linear-gradient(to bottom,#dedede,#bfbfbf 50%,#dedede);
+}
+input[type="radio"]{
+	display: none;
+}
+.nav6 input:checked + label{
+	color: white;
+	background: #64c51d;
+	 background: -moz-linear-gradient(top,#aee188,#64c51d 50%,#aee188);
+     background: -webkit-linear-gradient(top,#aee188,#64c51d 50%,#aee188);
+     background: -ms-linear-gradient(top,#aee188,#64c51d 50%,#aee188);
+     background: -o-linear-gradient(top,#aee188,#64c51d 50%,#aee188);
+     background: linear-gradient(to bottom,#aee188,#64c51d 50%,#aee188);
+}
+span.arrow{
+	display: inline-block;
+	-webkit-transform:scale(1,5.3); /* Safari and Chrome */
+	font-weight: bold;
+	padding-bottom: 2px;
+	margin-bottom: 4px;
+	color: white;
+	float: right;
+	padding-right: 1px;
+	margin-right: -4px;
+}

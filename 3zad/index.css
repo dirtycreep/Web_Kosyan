@@ -1,0 +1,12 @@
+.diagram{
+	background: #ecf4e2;
+	font-family: Times New Roman;
+    font-size: 25px;
+    line-height: 75px;
+    text-align: center;
+    width: 75px;
+    height: 75px;    
+    border: 20px solid #95cd8b;
+    border-right: 20px solid #cee6bb;
+	border-radius: 50%;
+}
