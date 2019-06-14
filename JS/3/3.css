@@ -1,0 +1,23 @@
+.block {
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    border: solid grey 1px;
+    width: 73px;
+    height: 101px;
+    margin: 11px;
+  }
+
+  .block select {
+    padding: 10px;
+    margin: 0px 100px 0px 0px;
+  }
+
+  .btn-group button{
+      display: block;
+      margin: 7px; 
+  }
+
+  .block, .btn-group{
+      display: inline-block;
+  }
